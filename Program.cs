@@ -6,11 +6,16 @@ using System.Threading.Tasks;
 
 namespace Testirovanie_Samkova_PR1_Z1
 {
-    internal class Program
+    public class Program
     {
-        static void Main(string[] args)
+        public void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
+        }
+
+        public static void Main()
+        {
+            throw new NotImplementedException();
         }
     }
 }
