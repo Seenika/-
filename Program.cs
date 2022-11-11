@@ -8,14 +8,15 @@ namespace Testirovanie_Samkova_PR1_Z1
 {
     public class Program
     {
-        public void Main(string[] args)
+        public static void Main()
         {
             Console.WriteLine("Hello World!");
         }
 
-        public static void Main()
+        public static void SayGoodbye()
         {
-            throw new NotImplementedException();
+            Console.WriteLine("Goodbye World!");
         }
+        
     }
 }
